@@ -8,6 +8,8 @@ public class ImageEditorFrame extends JFrame{
  public ImageEditorFrame(){
 	 super("Bildeditor");
 	 createMenuBar();
+	ImageEditorPanel panel = new ImageEditorPanel();
+add(panel);
  setDefaultCloseOperation(EXIT_ON_CLOSE);
  setSize(400, 300);
  setVisible(true);
